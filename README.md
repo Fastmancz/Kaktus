@@ -13,6 +13,7 @@ V případě, že bude dobíječka aktivní, tak vás bude **každých 5 minut**
 
 # Ke stažení
 **Instalační soubor** ke stažení **[zde](https://github.com/Fastmancz/Kaktus/files/2195626/Install.-.1.0.0.-.15.07.2018.zip "zde")**. (1.0.0 - 15.07.2018)
+
 **Projekt** ke stažení **[zde](https://github.com/Fastmancz/Kaktus/archive/1.0.0.zip "zde")**. (1.0.0 - 15.07.2018)
 
 # Obecné informace

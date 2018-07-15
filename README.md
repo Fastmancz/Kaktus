@@ -7,7 +7,7 @@ V případě, že bude dobíječka aktivní, tak vás bude **každých 5 minut**
 
 # Funkce a výhody
 - Každých 5 minut kontroluje stav dobíječky a nové aktualizace pro aplikaci.
-- Upozorní vás formou vyskakovací bubliny a zároveň se změní barva ikony v dolním panelu na žlutou.
+- Upozorní vás formou vyskakovací bubliny a zároveň se změní barva ikony na žlutou v dolním panelu.
 - Lze zapnout/vypnout automatické zapnutí při spuštění Windows.
 - **Zcela otevřený projekt**, díky němuž si můžete kód lehce přizpůsobit (tj. nastavit si např. jiný interval pro kontrolu stavu dobíječky.)
 

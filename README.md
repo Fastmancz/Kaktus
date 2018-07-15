@@ -9,7 +9,7 @@ V případě, že bude dobíječka aktivní, tak vás bude **každých 5 minut**
 - Každých 5 minut kontroluje stav dobíječky a nové aktualizace pro aplikaci.
 - Upozorní vás formou vyskakovací bubliny a zároveň se změní barva ikony na žlutou v dolním panelu.
 - Lze zapnout/vypnout automatické zapnutí při spuštění Windows.
-- **Zcela otevřený projekt**, díky němuž si můžete kód lehce přizpůsobit (tj. nastavit si např. jiný interval pro kontrolu stavu dobíječky.)
+- **Zcela otevřený projekt**, díky čemuž si můžete kód lehce přizpůsobit (tj. nastavit si např. jiný interval pro kontrolu stavu dobíječky.)
 
 # Ke stažení
 **Instalační soubor** ke stažení **[zde](https://github.com/Fastmancz/Kaktus/files/2195626/Install.-.1.0.0.-.15.07.2018.zip "zde")**. (1.0.0 - 15.07.2018)

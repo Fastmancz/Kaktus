@@ -1,4 +1,4 @@
-# Kaktus - Dobíječka (1.0.0 - 15.07.2018)
+# Kaktus - Dobíječka (1.0.1 - 20.07.2018)
 ### ⚠️Před provedením aktualizace si ověřte, zda máte vypnuté automatické zapnutí aplikace při spuštění Windows. Více v Q&A (Jak program aktualizuji?)
 
 Jedná se o velice jednoduchou a hlavně **amaterskou** aplikaci, která vám bude každých **5 minut** zjišťovat aktuální stav ze serveru [https://www.mujkaktus.cz/](https://www.mujkaktus.cz/ "https://www.mujkaktus.cz/") zda je dobíječka aktivní či není.
@@ -12,9 +12,9 @@ V případě, že bude dobíječka aktivní, tak vás bude **každých 5 minut**
 - **Zcela otevřený projekt**, díky němuž si můžete kód lehce přizpůsobit (tj. nastavit si např. jiný interval pro kontrolu stavu dobíječky.)
 
 # Ke stažení
-**Instalační soubor** ke stažení **[zde](https://github.com/Fastmancz/Kaktus/files/2195626/Install.-.1.0.0.-.15.07.2018.zip "zde")**. (1.0.0 - 15.07.2018)
+**Instalační soubor** ke stažení **[zde](https://github.com/Fastmancz/Kaktus/files/2195626/Install.-.1.0.0.-.15.07.2018.zip "zde")**. (1.0.1 - 20.07.2018)
 
-**Projekt** ke stažení **[zde](https://github.com/Fastmancz/Kaktus/archive/1.0.0.zip "zde")**. (1.0.0 - 15.07.2018)
+**Projekt** ke stažení **[zde](https://github.com/Fastmancz/Kaktus/archive/1.0.1.zip "zde")**. (1.0.1 - 20.07.2018)
 
 # Obecné informace
 - **Nejedná** se v žádném případě o oficiální aplikaci ze strany společnosti 
@@ -27,7 +27,7 @@ T-Mobile Czech Republic a.s. nebo značky Kaktus.
 # Q&A
 - **Je program zdarma?** Ano, program je zdarma.
 - **Jak program aktualizuji?** V případě, že máte zapnuté automatické zapnutí aplikace při spuštění Windows, tak jej nejprve vypněte a následně jděte do Ovládacích panelů - Programy a funkce a odinstalujte program (Kaktus - Dobíječka). Program se instaluje formou ClickOnce, a proto nemůžu detekovat odinstalování programu, takže by v registru zůstal zbytečný záznam. Pokud jste program již odinstalovali a nepostupovali jste podle návodu výše, tak stačí záznam smazat z registru (CTRL+R) - regedit, vložit do řádku (\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run) a Enter. V seznamu uvidíte (Kaktus - Dobijecka), stačí tento záznam odstranit. Hotovo.
-- **Jak to celé funguje?** Každých 5 minut vyvolá program dotaz pro stažení JSON dat ze stránky [https://api.cmgportal.cz/kaktus/](https://api.cmgportal.cz/kaktus/ "https://api.cmgportal.cz/kaktus/") a získaná data promítne do systému aplikace. Tato data jsou brána formou jednoduchého PHP kódu.
+- **Jak to celé funguje?** Každých 5 minut vyvolá program dotaz pro stažení JSON dat ze stránky [https://fastmancz.000webhostapp.com/api/kaktus/](https://fastmancz.000webhostapp.com/api/kaktus/ "https://fastmancz.000webhostapp.com/api/kaktus/") a získaná data promítne do systému aplikace. Tato data jsou brána formou jednoduchého PHP kódu.
 - **Můžu aplikaci provozovat na svém webu?** Ano, stačí stáhnout kompletní balíček a přepsat v programu proměnnou *website* na svůj vlastní web. Následně obsah složky *PHP* dejte na svoje FTP webu. Server musí mít nainstalovaný PHP a dynamická stránka nesmí obsahovat nic jiného než JSON data (v opačném případě hrozí pád aplikace.) Jen poznamenám, že tímto krokem již nebude mít aplikace kontrolu nad aktuální verzí programu.
 - **Poradíte mi, jak to mám zkompilovat?** Ne, ale existuje spousta návodů na YouTube/Google jak toho docílit. Jak již zbylo zmíněno výše, program je psán ve Visual Studio - Community (C#).
 - **Proč mi nejde program spustit?** Program by měl podporova x86, x64 bitovou verzi Windows XP, Windows 7 až Windows 10. Pro spuštění programu je potřeba mít nainstalovaný .net framework 4.0 (standardně je již v systému nainstalován.)

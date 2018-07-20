@@ -19,8 +19,9 @@ namespace kaktus_dobijecka
     public partial class MainForm : Form
     {
         //Variables
-        string version = "1.0.0";
-        string website = "https://api.cmgportal.cz/kaktus/";
+        string version = "1.0.1";
+        string checkinternetping = "https://google.cz";
+        string website = "https://fastmancz.000webhostapp.com/api/kaktus/";
         int check = 300000; // in miliseconds, 300000 - 5 min., 5000 - 5 sec.
 
         private bool CheckConnection(String URL)
@@ -51,7 +52,7 @@ namespace kaktus_dobijecka
 
         public MainForm()
         {
-            bool checkinternet = CheckConnection(website); if (checkinternet == false) { MessageBox.Show("Nelze se připojit ke vzdálenému serveru.", "Chyba", MessageBoxButtons.OK, MessageBoxIcon.Error); GV.OK = 0; if (Application.MessageLoop) { Application.Exit(); } else { Environment.Exit(1); } }
+            bool checkinternet = CheckConnection(checkinternetping); if (checkinternet == false) { MessageBox.Show("Nelze se připojit ke vzdálenému serveru.", "Chyba", MessageBoxButtons.OK, MessageBoxIcon.Error); GV.OK = 0; if (Application.MessageLoop) { Application.Exit(); } else { Environment.Exit(1); } }
 
             if (GV.OK == 1)
             {
@@ -109,7 +110,7 @@ namespace kaktus_dobijecka
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            bool checkinternet = CheckConnection(website);
+            bool checkinternet = CheckConnection(checkinternetping);
             if (checkinternet == false)
             {
                 text_main.Text = "Nelze se připojit k serveru";

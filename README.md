@@ -12,7 +12,7 @@ V případě, že bude dobíječka aktivní, tak vás bude **každých 5 minut**
 - **Zcela otevřený projekt**, díky čemuž si můžete kód lehce přizpůsobit (tj. nastavit si např. jiný interval pro kontrolu stavu dobíječky.)
 
 # Ke stažení
-**Instalační soubor** ke stažení **[zde](https://github.com/Fastmancz/Kaktus/files/2195626/Install.-.1.0.0.-.15.07.2018.zip "zde")**. (1.0.1 - 20.07.2018)
+**Instalační soubor** ke stažení **[zde](https://github.com/Fastmancz/Kaktus/releases/download/1.0.1/Install.-.1.0.1.-.20.07.2018.zip "zde")**. (1.0.1 - 20.07.2018)
 
 **Projekt** ke stažení **[zde](https://github.com/Fastmancz/Kaktus/archive/1.0.1.zip "zde")**. (1.0.1 - 20.07.2018)
 
